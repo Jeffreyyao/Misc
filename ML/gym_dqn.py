@@ -98,13 +98,19 @@ class Agent():
         terminal_batch = T.tensor(self.terminal_memory[batch]).to(self.Q_eval.device)
 
         # get all Q values for each states in state_batch
+        # then extract the q value corresponding to each action in action_batch
         q_eval = self.Q_eval.forward(state_batch)[batch_index, action_batch]
+
+        # get all Q values for each states' next state in new_state_batch
+        # also set the terminal batch's q values to zero
         q_next = self.Q_next.forward(new_state_batch)
         q_next[terminal_batch] = 0.0
 
+        # find the max q value in each 1x(action_space) q value pair from the new states
+        # perform bellman's equation to find the expected value for q_eval
         q_target = reward_batch + self.gamma*T.max(q_next,dim=1)[0]
 
-        loss = self.Q_eval.loss(q_target, q_eval).to(self.Q_eval.device)
+        loss = self.Q_eval.loss(q_eval, q_target).to(self.Q_eval.device)
         loss.backward()
         self.Q_eval.optimizer.step()
 
@@ -126,6 +132,7 @@ agent = Agent(gamma=0.99, epsilon=1.0, batch_size=64, n_actions=action_space, ep
                   input_dims=[observation_space], lr=0.001)
 n_games = 500
     
+max_score = -142857
 for i in range(1,n_games+1):
     score = 0
     done = False
@@ -140,5 +147,6 @@ for i in range(1,n_games+1):
                                 observation_, done)
         agent.learn()
         observation = observation_
+    max_score = max(max_score,score)
 
-    print('Episode:', i, 'Score %.2f' % score)
+    print('Episode:', i, 'Score:', score, 'Max score:', max_score)
