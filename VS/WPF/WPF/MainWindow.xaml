@@ -1,0 +1,30 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="WPF" Height="277" Width="218.996" Background="#FFF1F1F1" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" ResizeMode="NoResize" Icon="182091-105 (2).jpg">
+    <StackPanel HorizontalAlignment="Left" Height="356" Margin="-4,-20,0,0" VerticalAlignment="Top" Width="264">
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="40" Margin="15,40,0,0" TextWrapping="Wrap" Text="" Width="190" SpellCheck.IsEnabled="True" FontFamily="Microsoft YaHei" FontSize="26.667" IsReadOnly="True" FlowDirection="RightToLeft"/>
+        <Button x:Name="button7" Content="7" HorizontalAlignment="Left" Height="30" Margin="15,15,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" Height="30" Margin="15,15,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" Height="30" Margin="15,15,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="button0" Content="0" HorizontalAlignment="Left" Height="30" Margin="15,15,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="button8" Content="8" HorizontalAlignment="Left" Height="30" Margin="55,-300,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="button5" Content="5" HorizontalAlignment="Left" Height="30" Margin="55,-210,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" Height="30" Margin="55,-120,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="buttonpoint" Content="." HorizontalAlignment="Left" Height="30" Margin="55,-30,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="button9" Content="9" HorizontalAlignment="Left" Height="30" Margin="95,-300,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" Height="30" Margin="95,-210,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" Height="30" Margin="95,-120,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="button00" Content="00" HorizontalAlignment="Left" Height="30" Margin="95,-30,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="buttoncancel" Content="C" HorizontalAlignment="Left" Height="30" Margin="135,-300,0,0" Width="70" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="buttonmultiply" Content="*" HorizontalAlignment="Left" Height="30" Margin="135,-210,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="buttondivide" Content="/" HorizontalAlignment="Left" Height="30" Margin="175,-210,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="buttonplus" Content="+" HorizontalAlignment="Left" Height="30" Margin="135,-120,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="buttonminus" Content="-" HorizontalAlignment="Left" Height="30" Margin="175,-120,0,0" Width="30" FontSize="16" Background="#FFE1E1E1"/>
+        <Button x:Name="buttonequils" Content="=" HorizontalAlignment="Left" Height="30" Margin="135,-30,0,0" Width="70" FontSize="16" Background="#FFE1E1E1"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="35" Margin="15,400,0,0" TextWrapping="Wrap" Text="" Width="190" SpellCheck.IsEnabled="True" FontFamily="Microsoft YaHei" FontSize="26.667" IsReadOnly="True" FlowDirection="RightToLeft"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="35" Margin="15,400,0,0" TextWrapping="Wrap" Text="" Width="190" SpellCheck.IsEnabled="True" FontFamily="Microsoft YaHei" FontSize="26.667" IsReadOnly="True" FlowDirection="RightToLeft"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="35" Margin="15,400,0,0" TextWrapping="Wrap" Text="" Width="190" SpellCheck.IsEnabled="True" FontFamily="Microsoft YaHei" FontSize="26.667" IsReadOnly="True" FlowDirection="RightToLeft"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="90" Margin="225,0,0,0" TextWrapping="Wrap" Text="TextBox" Width="29"/>
+    </StackPanel>
+</Window>

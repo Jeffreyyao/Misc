@@ -1,0 +1,19 @@
+﻿<Window x:Class="OLVocabPrac.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OLVocabPrac"
+        mc:Ignorable="d" Icon="dict.ico"
+        Title="MainWindow" Height="400" Width="400">
+    <Grid>
+        <StackPanel>
+            <TextBlock Name="txtword" TextWrapping="Wrap"  FontSize="45" VerticalAlignment="Top" Height="58"/>
+            <TextBlock Name="txtdef" VerticalAlignment="Stretch" FontSize="30" TextWrapping="Wrap"/>
+        </StackPanel>
+        <TextBox Name="txtbox" FontSize="22" VerticalAlignment="Stretch" Visibility="Collapsed" TextWrapping="Wrap"/>
+        <Ellipse MouseEnter="Ellipse_MouseEnter" MouseLeftButtonDown="Ellipse_MouseDown" MouseLeave="Ellipse_MouseLeave" Height="180" Fill="Green" Width="180" Name="grnell"/>
+        <Ellipse MouseLeftButtonDown="bluell_MouseLeftButtonDown" MouseEnter="bluell_MouseEnter"  MouseLeave="bluell_MouseLeave" Name="bluell" Visibility="Collapsed" Width="45" Height="45" Fill="Blue" VerticalAlignment="Bottom" Margin="10"/>
+        <Ellipse MouseLeftButtonDown="redell_MouseLeftButtonDown" MouseEnter="redell_MouseEnter" MouseLeave="redell_MouseLeave" Name="redell" Visibility="Collapsed" Width="45" Height="45" Fill="Red" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10"/>
+    </Grid>
+</Window>

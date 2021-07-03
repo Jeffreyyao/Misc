@@ -1,0 +1,50 @@
+﻿<Window x:Class="MainWindow" Background="Transparent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Language="English"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" ResizeMode="CanResizeWithGrip"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:new_Todo" Icon="ico.ico" ShowActivated="False"
+        mc:Ignorable="d" WindowStyle="None" AllowsTransparency="True" MinHeight="200" MinWidth="200"
+        Title="MainWindow" Height="300" Width="220" x:Name="window">
+    <Grid x:Name="G">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="22"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Ellipse Height="20" Width="20" HorizontalAlignment="Left" VerticalAlignment="Top" Fill="gray"/>
+        <Ellipse Height="20" Width="20" HorizontalAlignment="Right" VerticalAlignment="Top" Fill="gray"/>
+        <Rectangle x:Name="top"  Height="20" Fill="gray" VerticalAlignment="top" Width="225"/>
+        <Rectangle x:Name="bottom" Fill="gray" Grid.Row="0" Grid.RowSpan="2" Margin="0 12 0 0"/>
+        <Ellipse x:Name="red" Fill="Red" Height="15" Width="15" HorizontalAlignment="Left" Margin="5 0 0 0"/>
+        <Ellipse x:Name="yellow" Fill="Yellow"  Height="15" Width="15" HorizontalAlignment="Left" Margin="25 0 0 0"/>
+        <Ellipse x:Name="green" Fill="green" Height="15" Width="15" HorizontalAlignment="Left" Margin="45 0 0 0"/>
+        <ScrollViewer Grid.Row="2" x:Name="scroll" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+            <Grid x:Name="grid1" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="30"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Opacity="0.8" VerticalAlignment="top" Background="darkgray" Foreground="white"  
+                     VerticalContentAlignment="center" Grid.ColumnSpan="2" Visibility="collapsed" 
+                     x:Name="input" Height="30"  FontSize="16" Panel.ZIndex="100"/>
+                <Button Opacity="0.8" x:Name="configBtn" Height="30" VerticalAlignment="top"  Visibility="collapsed" 
+                    FontWeight="Bold" Content="+" FontSize="20" Foreground="white" Background="Blue" 
+                    BorderThickness="0" Grid.Column="2" Panel.ZIndex="100"/>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo x:Name="taskBar" Overlay="ico.ico">
+            <TaskbarItemInfo.ThumbButtonInfos>
+                <ThumbButtonInfo ImageSource="ico.ico"/>
+                <ThumbButtonInfo  ImageSource="ico.ico"/>
+                <ThumbButtonInfo ImageSource="ico.ico"/>
+                <ThumbButtonInfo  ImageSource="ico.ico"/>
+                <ThumbButtonInfo  ImageSource="ico.ico"/>
+                <ThumbButtonInfo  ImageSource="ico.ico"/>
+                <ThumbButtonInfo   ImageSource="ico.ico"/>
+            </TaskbarItemInfo.ThumbButtonInfos>
+        </TaskbarItemInfo>
+    </Window.TaskbarItemInfo>
+</Window>

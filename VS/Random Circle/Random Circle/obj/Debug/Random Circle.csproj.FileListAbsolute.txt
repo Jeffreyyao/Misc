@@ -1,0 +1,15 @@
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\bin\Debug\Random Circle.exe.config
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\bin\Debug\Random Circle.exe
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\bin\Debug\Random Circle.pdb
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\obj\Debug\Random Circle.csprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\obj\Debug\MainWindow.g.cs
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\obj\Debug\App.g.cs
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\obj\Debug\Random Circle_MarkupCompile.cache
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\obj\Debug\Random Circle_MarkupCompile.lref
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\obj\Debug\MainWindow.baml
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\obj\Debug\Random Circle.g.resources
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\obj\Debug\Random_Circle.Properties.Resources.resources
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\obj\Debug\Random Circle.csproj.GenerateResource.Cache
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\obj\Debug\Random Circle.csproj.CoreCompileInputs.cache
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\obj\Debug\Random Circle.exe
+C:\Users\Jeffreyyao\desktop\Random Circle\Random Circle\obj\Debug\Random Circle.pdb

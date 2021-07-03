@@ -1,0 +1,52 @@
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\bin\Debug\Calc.exe.config
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\bin\Debug\Calc.exe
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\bin\Debug\Calc.pdb
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\bin\Debug\Calc.xml
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\obj\Debug\Calc.vbprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\obj\Debug\MainWindow.g.vb
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\obj\Debug\Application.g.vb
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\obj\Debug\Calc_MarkupCompile.cache
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\obj\Debug\Calc_MarkupCompile.lref
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\obj\Debug\MainWindow.baml
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\obj\Debug\Calc.g.resources
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\obj\Debug\Calc.Resources.resources
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\obj\Debug\Calc.vbproj.GenerateResource.Cache
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\obj\Debug\Calc.exe
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\obj\Debug\Calc.xml
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\Calc\Calc\obj\Debug\Calc.pdb
+C:\Users\Jeffreyyao\OneDrive\Visual Studio Projects\Calc\Calc\bin\Debug\Calc.exe.config
+C:\Users\Jeffreyyao\OneDrive\Visual Studio Projects\Calc\Calc\obj\Debug\Calc.exe
+C:\Users\Jeffreyyao\OneDrive\Visual Studio Projects\Calc\Calc\obj\Debug\Calc.xml
+C:\Users\Jeffreyyao\OneDrive\Visual Studio Projects\Calc\Calc\obj\Debug\Calc.pdb
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\bin\Debug\Calc.exe.config
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\obj\Debug\Calc.exe
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\obj\Debug\Calc.xml
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\obj\Debug\Calc.pdb
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\bin\Debug\Calc.exe
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\bin\Debug\Calc.pdb
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\bin\Debug\Calc.xml
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\obj\Debug\Calc.vbprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\obj\Debug\MainWindow.g.vb
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\obj\Debug\Application.g.vb
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\obj\Debug\Calc_MarkupCompile.cache
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\obj\Debug\Calc_MarkupCompile.lref
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\obj\Debug\MainWindow.baml
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\obj\Debug\Calc.g.resources
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\obj\Debug\Calc.Resources.resources
+C:\Users\Jeffreyyao\OneDrive\VS\Calc\Calc\obj\Debug\Calc.vbproj.GenerateResource.Cache
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\bin\Debug\Calc.exe.config
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\obj\Debug\Calc.exe
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\obj\Debug\Calc.xml
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\obj\Debug\Calc.pdb
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\obj\Debug\Calc.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\obj\Debug\MainWindow.g.vb
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\obj\Debug\Application.g.vb
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\obj\Debug\Calc_MarkupCompile.cache
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\obj\Debug\Calc_MarkupCompile.lref
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\bin\Debug\Calc.exe
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\bin\Debug\Calc.pdb
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\bin\Debug\Calc.xml
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\obj\Debug\MainWindow.baml
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\obj\Debug\Calc.g.resources
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\obj\Debug\Calc.Resources.resources
+C:\Users\Administrator\OneDrive\VS\Calc\Calc\obj\Debug\Calc.vbproj.GenerateResource.Cache

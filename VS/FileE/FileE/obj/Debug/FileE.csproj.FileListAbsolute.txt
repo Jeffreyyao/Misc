@@ -1,0 +1,14 @@
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\bin\Debug\FileE.exe.config
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\bin\Debug\FileE.exe
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\bin\Debug\FileE.pdb
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\obj\Debug\FileE.csprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\obj\Debug\MainWindow.g.cs
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\obj\Debug\App.g.cs
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\obj\Debug\FileE_MarkupCompile.cache
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\obj\Debug\FileE_MarkupCompile.lref
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\obj\Debug\MainWindow.baml
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\obj\Debug\FileE.g.resources
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\obj\Debug\FileE.Properties.Resources.resources
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\obj\Debug\FileE.csproj.GenerateResource.Cache
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\obj\Debug\FileE.exe
+C:\Users\Jeffreyyao\OneDrive\VS\FileE\FileE\obj\Debug\FileE.pdb

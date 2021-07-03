@@ -1,0 +1,34 @@
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\bin\Debug\Hitt.exe.config
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\bin\Debug\Hitt.exe
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\bin\Debug\Hitt.pdb
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\bin\Debug\Hitt.xml
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\obj\Debug\Hitt.vbprojResolveAssemblyReference.cache
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\obj\Debug\MainWindow.g.vb
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\obj\Debug\Application.g.vb
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\obj\Debug\Hitt_MarkupCompile.cache
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\obj\Debug\MainWindow.baml
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\obj\Debug\Hitt.g.resources
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\obj\Debug\Hitt.Resources.resources
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\obj\Debug\Hitt.vbproj.GenerateResource.Cache
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\obj\Debug\Hitt.exe
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\obj\Debug\Hitt.xml
+c:\users\jeffreyyao\documents\visual studio 2015\Projects\Hitt\Hitt\obj\Debug\Hitt.pdb
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\bin\Debug\Hitt.exe.config
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\obj\Debug\Hitt.exe
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\obj\Debug\Hitt.xml
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\obj\Debug\Hitt.pdb
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\bin\Debug\Hitt.exe
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\bin\Debug\Hitt.pdb
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\bin\Debug\Hitt.xml
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\obj\Debug\Hitt.vbprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\obj\Debug\MainWindow.baml
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\obj\Debug\MainWindow.g.vb
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\obj\Debug\Application.g.vb
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\obj\Debug\Hitt_MarkupCompile.cache
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\obj\Debug\Hitt.g.resources
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\obj\Debug\Hitt.Resources.resources
+C:\Users\Jeffreyyao\OneDrive\VS\Hitt\Hitt\obj\Debug\Hitt.vbproj.GenerateResource.Cache
+C:\Users\Administrator\OneDrive\VS\Hitt\Hitt\bin\Debug\Hitt.exe.config
+C:\Users\Administrator\OneDrive\VS\Hitt\Hitt\obj\Debug\Hitt.exe
+C:\Users\Administrator\OneDrive\VS\Hitt\Hitt\obj\Debug\Hitt.xml
+C:\Users\Administrator\OneDrive\VS\Hitt\Hitt\obj\Debug\Hitt.pdb

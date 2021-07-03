@@ -1,0 +1,16 @@
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\bin\Debug\FiveSon.exe.config
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\bin\Debug\FiveSon.exe
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\bin\Debug\FiveSon.pdb
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\bin\Debug\FiveSon.xml
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\obj\Debug\FiveSon.vbprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\obj\Debug\MainWindow.g.vb
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\obj\Debug\Application.g.vb
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\obj\Debug\FiveSon_MarkupCompile.cache
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\obj\Debug\FiveSon_MarkupCompile.lref
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\obj\Debug\MainWindow.baml
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\obj\Debug\FiveSon.g.resources
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\obj\Debug\FiveSon.Resources.resources
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\obj\Debug\FiveSon.vbproj.GenerateResource.Cache
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\obj\Debug\FiveSon.exe
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\obj\Debug\FiveSon.xml
+C:\Users\Jeffreyyao\OneDrive\VS\FiveSon\FiveSon\obj\Debug\FiveSon.pdb

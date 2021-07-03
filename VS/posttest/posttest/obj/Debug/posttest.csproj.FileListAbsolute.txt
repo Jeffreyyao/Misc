@@ -1,0 +1,6 @@
+C:\Users\Jeffreyyao\Desktop\posttest\posttest\bin\Debug\posttest.exe.config
+C:\Users\Jeffreyyao\Desktop\posttest\posttest\bin\Debug\posttest.exe
+C:\Users\Jeffreyyao\Desktop\posttest\posttest\bin\Debug\posttest.pdb
+C:\Users\Jeffreyyao\Desktop\posttest\posttest\obj\Debug\posttest.csprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\Desktop\posttest\posttest\obj\Debug\posttest.exe
+C:\Users\Jeffreyyao\Desktop\posttest\posttest\obj\Debug\posttest.pdb

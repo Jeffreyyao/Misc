@@ -1,0 +1,16 @@
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\bin\Debug\Drawing.exe.config
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\bin\Debug\Drawing.exe
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\bin\Debug\Drawing.pdb
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\bin\Debug\Drawing.xml
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\obj\Debug\Drawing.vbprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\obj\Debug\MainWindow.g.vb
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\obj\Debug\Application.g.vb
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\obj\Debug\Drawing_MarkupCompile.cache
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\obj\Debug\Drawing_MarkupCompile.lref
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\obj\Debug\MainWindow.baml
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\obj\Debug\Drawing.g.resources
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\obj\Debug\Drawing.Resources.resources
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\obj\Debug\Drawing.vbproj.GenerateResource.Cache
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\obj\Debug\Drawing.exe
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\obj\Debug\Drawing.xml
+C:\Users\Jeffreyyao\OneDrive\VS\Drawing\Drawing\obj\Debug\Drawing.pdb

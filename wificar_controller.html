@@ -1,0 +1,62 @@
+<div>
+    <div class="blue" on onmousedown="up()" onmouseup="stop()"></div>
+    <div style="display: flex;height: 40%;">
+        <div class="red" onmousedown="left()" onmouseup="stop()"></div>
+        <div class="green" onmousedown="right()" onmouseup="stop()"></div>
+    </div>
+    <div class="grey" onmousedown="down()" onmouseup="stop()"></div>
+</div>
+
+<style>
+    .blue{
+        background-color: lightslategrey;
+        height: 30%;
+    }
+    .red{
+        background-color: lightcoral;
+        width: 50%;
+    }
+    .green{
+        background-color: lightgreen;
+        width: 50%;
+    }
+    .grey{
+        background-color: lightslategrey;
+        height: 30%;
+    }
+</style>
+<script>
+let xhr = new XMLHttpRequest();
+function up(){
+    xhr.open("get","http://192.168.1.1/f");
+    xhr.send();
+}
+function down(){
+    xhr.open("get","http://192.168.1.1/b");
+    xhr.send();
+}
+function left(){
+    xhr.open("get","http://192.168.1.1/l");
+    xhr.send();
+}
+function right(){
+    xhr.open("get","http://192.168.1.1/r");
+    xhr.send();
+}
+function stop(){
+    xhr.open("get","http://192.168.1.1/");
+    xhr.send();
+}
+var u = document.getElementsByClassName("blue")[0];
+u.addEventListener('touchstart',up());
+u.addEventListener('touchend',stop());
+var d = document.getElementsByClassName("grey")[0];
+d.addEventListener('touchstart',down());
+d.addEventListener('touchend',stop());
+var l = document.getElementsByClassName("red")[0];
+l.addEventListener('touchstart',left());
+l.addEventListener('touchend',stop());
+var r = document.getElementsByClassName("green")[0];
+r.addEventListener('touchstart',right());
+r.addEventListener('touchend',stop());
+</script>

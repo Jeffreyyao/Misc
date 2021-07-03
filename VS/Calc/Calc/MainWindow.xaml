@@ -1,0 +1,68 @@
+﻿<Window x:Class="MainWindow"
+        x:Name="window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calc"
+        mc:Ignorable="d"
+        Title="Calc" Height="391.333" Width="308.333" MinHeight="300" MinWidth="224" SnapsToDevicePixels="True" MaxHeight="1000" 
+        Icon="calculator_128px_1190115_easyicon.net.ico">
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0"/>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0"/>
+
+        </Grid.RowDefinitions>
+        <TextBox x:Name="textBox1" Grid.Column="1" Margin="0" Grid.Row="1" Grid.ColumnSpan="11" FontSize="40" FlowDirection="RightToLeft" FontStretch="Expanded" Background="White" Text="" IsReadOnly="True" FontFamily="MS Reference Sans Serif" BorderThickness="0" TextWrapping="Wrap" MaxLines="1"/>
+        <TextBox x:Name="textBox2" Visibility="hidden"></TextBox>
+        <TextBox x:Name="textBox3" Visibility="hidden"></TextBox>
+        <TextBox x:Name="textBox4" Visibility="hidden"></TextBox>
+        <TextBox x:Name="textBox5" Visibility="hidden"></TextBox>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="button0" Content="0" Grid.Column="1"  Grid.Row="9" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="buttonpoint" Content="." Grid.Column="3"  Grid.Row="9" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="button00" Content="00" Grid.Column="5"  Grid.Row="9" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="buttonequils" Content="=" Grid.Column="9"  Grid.Row="9" Grid.RowSpan="1" Grid.ColumnSpan="3" FontSize="24" FontStretch="UltraExpanded" Background="darkorange" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="white" />
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="button1" Content="1" Grid.Column="1"  Grid.Row="7" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="button2" Content="2" Grid.Column="3"  Grid.Row="7" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="button3" Content="3" Grid.Column="5"  Grid.Row="7" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="buttonplus" Content="+" Grid.Column="9"  Grid.Row="7" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="buttonminus" Content="-" Grid.Column="11"  Grid.Row="7" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="button4" Content="4" Grid.Column="1"  Grid.Row="5" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="button5" Content="5" Grid.Column="3"  Grid.Row="5" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="button6" Content="6" Grid.Column="5"  Grid.Row="5" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="buttonmultiply" Content="*" Grid.Column="9"  Grid.Row="5" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="buttondivide" Content="/" Grid.Column="11"  Grid.Row="5" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="button7" Content="7" Grid.Column="1"  Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="button8" Content="8" Grid.Column="3"  Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="button9" Content="9" Grid.Column="5"  Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="White" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="buttoncancel" Content="C" Grid.Column="11"  Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="white" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="buttondel" Content="E" Grid.Column="9"  Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="24" FontStretch="UltraExpanded" Background="white" FontFamily="MS Reference Sans Serif" BorderThickness="0" Foreground="#FF616161"/>
+
+    </Grid>
+</Window>

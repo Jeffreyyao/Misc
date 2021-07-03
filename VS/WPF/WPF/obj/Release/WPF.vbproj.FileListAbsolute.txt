@@ -1,0 +1,14 @@
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\bin\Release\WPF.exe
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\bin\Release\WPF.pdb
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\bin\Release\WPF.xml
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\obj\Release\WPF.vbprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\obj\Release\MainWindow.baml
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\obj\Release\MainWindow.g.vb
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\obj\Release\Application.g.vb
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\obj\Release\WPF_MarkupCompile.cache
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\obj\Release\WPF.g.resources
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\obj\Release\WPF.Resources.resources
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\obj\Release\WPF.vbproj.GenerateResource.Cache
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\obj\Release\WPF.exe
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\obj\Release\WPF.xml
+C:\Users\Jeffreyyao\OneDrive\Files\Visual Studio Projects\WPF\WPF\obj\Release\WPF.pdb

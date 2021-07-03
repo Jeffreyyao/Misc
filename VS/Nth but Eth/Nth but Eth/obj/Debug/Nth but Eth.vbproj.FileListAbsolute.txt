@@ -1,0 +1,33 @@
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\obj\Debug\Nth but Eth.vbprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\obj\Debug\MainWindow.g.vb
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\obj\Debug\Application.g.vb
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\obj\Debug\MainWindow.baml
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\obj\Debug\Nth but Eth.vbproj.GenerateResource.Cache
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\bin\Debug\SuperClock.exe.config
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\bin\Debug\SuperClock.exe
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\bin\Debug\SuperClock.pdb
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\bin\Debug\SuperClock.xml
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClock_MarkupCompile.cache
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClock_MarkupCompile.lref
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClock.g.resources
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClocok.Resources.resources
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClock.exe
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClock.xml
+C:\Users\Jeffreyyao\OneDrive\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClock.pdb
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\bin\Debug\SuperClock.exe.config
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\bin\Debug\SuperClock.exe
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\bin\Debug\SuperClock.pdb
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\bin\Debug\SuperClock.xml
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\Nth but Eth.vbprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\MainWindow.g.vb
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\Application.g.vb
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClock_MarkupCompile.cache
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClock_MarkupCompile.lref
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\MainWindow.baml
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClock.g.resources
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClocok.Resources.resources
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\Nth but Eth.vbproj.GenerateResource.Cache
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\Nth but Eth.vbproj.CoreCompileInputs.cache
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClock.exe
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClock.xml
+C:\Users\Jeffreyyao\Desktop\VS\Nth but Eth\Nth but Eth\obj\Debug\SuperClock.pdb

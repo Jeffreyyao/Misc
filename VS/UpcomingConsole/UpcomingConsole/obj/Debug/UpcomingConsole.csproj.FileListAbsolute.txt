@@ -1,0 +1,6 @@
+C:\Users\Jeffreyyao\Desktop\UpcomingConsole\UpcomingConsole\bin\Debug\UpcomingConsole.exe.config
+C:\Users\Jeffreyyao\Desktop\UpcomingConsole\UpcomingConsole\bin\Debug\UpcomingConsole.exe
+C:\Users\Jeffreyyao\Desktop\UpcomingConsole\UpcomingConsole\bin\Debug\UpcomingConsole.pdb
+C:\Users\Jeffreyyao\Desktop\UpcomingConsole\UpcomingConsole\obj\Debug\UpcomingConsole.csprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\Desktop\UpcomingConsole\UpcomingConsole\obj\Debug\UpcomingConsole.exe
+C:\Users\Jeffreyyao\Desktop\UpcomingConsole\UpcomingConsole\obj\Debug\UpcomingConsole.pdb

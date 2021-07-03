@@ -1,0 +1,15 @@
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\bin\Debug\gameoflife.exe.config
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\bin\Debug\gameoflife.exe
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\bin\Debug\gameoflife.pdb
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\obj\Debug\gameoflife.csprojResolveAssemblyReference.cache
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\obj\Debug\MainWindow.g.cs
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\obj\Debug\App.g.cs
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\obj\Debug\gameoflife_MarkupCompile.cache
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\obj\Debug\gameoflife_MarkupCompile.lref
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\obj\Debug\MainWindow.baml
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\obj\Debug\gameoflife.g.resources
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\obj\Debug\gameoflife.Properties.Resources.resources
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\obj\Debug\gameoflife.csproj.GenerateResource.Cache
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\obj\Debug\gameoflife.csproj.CoreCompileInputs.cache
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\obj\Debug\gameoflife.exe
+C:\Users\Jeffreyyao\desktop\vs\gameoflife\gameoflife\obj\Debug\gameoflife.pdb

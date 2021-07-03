@@ -1,0 +1,16 @@
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\bin\Debug\Binding.exe.config
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\bin\Debug\Binding.exe
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\bin\Debug\Binding.pdb
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\bin\Debug\Binding.xml
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\obj\Debug\MainWindow.g.vb
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\obj\Debug\Application.g.vb
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\obj\Debug\Binding_MarkupCompile.cache
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\obj\Debug\Binding_MarkupCompile.lref
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\obj\Debug\MainWindow.baml
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\obj\Debug\Binding.g.resources
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\obj\Debug\Binding.Resources.resources
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\obj\Debug\Binding.vbproj.GenerateResource.Cache
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\obj\Debug\Binding.exe
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\obj\Debug\Binding.xml
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\obj\Debug\Binding.pdb
+C:\Users\Jeffreyyao\OneDrive\VS\Binding\Binding\obj\Debug\Binding.vbprojResolveAssemblyReference.cache
