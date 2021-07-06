@@ -121,13 +121,13 @@ class Agent():
         if self.iter_cntr % self.replace_target == 0:
            self.Q_next.load_state_dict(self.Q_eval.state_dict())
 
-env = gym.make("CartPole-v1")
+env = gym.make("MountainCar-v0")
 
 # Lunar Lander v2: a:4, s:8
 # Mountain Car v0: a:3, s:2
 # CartPole v0/ v1: a:2, s:4
-action_space = 2
-observation_space = 4
+action_space = 3
+observation_space = 2
 agent = Agent(gamma=0.99, epsilon=1.0, batch_size=64, n_actions=action_space, eps_end=0.01,
                   input_dims=[observation_space], lr=0.001)
 n_games = 500
