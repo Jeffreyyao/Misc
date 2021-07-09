@@ -3,12 +3,12 @@ from torch import nn
 from tqdm import tqdm
 from minesweeper_train_env import Minesweeper
 
-env = Minesweeper(5,5,3,False) # P(mine|ij)=0.16
+env = Minesweeper(5,5,3) # P(mine|ij)=0.16
 
 model = nn.Sequential(nn.Conv2d(1,20,3,padding=2), nn.ReLU(),
-                      nn.Conv2d(20,20,3,padding=2), nn.ReLU(),
-                      nn.Conv2d(20,9,3), nn.ReLU(),
-                      nn.Conv2d(9,1,3), nn.Sigmoid())
+                      nn.Conv2d(20,40,3,padding=2), nn.ReLU(),
+                      nn.Conv2d(40,20,3), nn.ReLU(),
+                      nn.Conv2d(20,1,3), nn.Sigmoid())
 criterion = nn.MSELoss()
 optimizer = T.optim.SGD(model.parameters(), lr=0.1)
 
@@ -19,7 +19,7 @@ def get_train_data():
     nn_output = env.map.T
     return T.tensor([[nn_input]]).float(), T.tensor([[nn_output]]).float()
 
-num_epoch = 200000
+num_epoch = 500000
 for _ in tqdm(range(num_epoch)):
     nn_input, nn_desired_output = get_train_data()
     optimizer.zero_grad()

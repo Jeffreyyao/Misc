@@ -2,7 +2,7 @@ import numpy as np
 from random import random
 
 class Minesweeper():
-    def __init__(self, height, width, num_mines, render):
+    def __init__(self, height, width, num_mines):
         self.height = height
         self.width = width
         self.num_mines = num_mines
@@ -13,15 +13,6 @@ class Minesweeper():
         self.step_cntr = 0
         self.step_cntr_max = (height*width-num_mines)*2
         self.mine_density = 2*num_mines/self.action_space
-
-        if render:
-            import pygame
-            self.block_size = 50
-            self.window_height = self.block_size * height
-            self.window_width = self.block_size * width
-            self.screen = pygame.display.set_mode((self.window_width, self.window_height))
-            pygame.init()
-
         self.map = None
         self.generate_mines()
         
@@ -101,32 +92,3 @@ class Minesweeper():
             if new_num_opened==self.action_space-self.num_mines:
                 return self.state, self.win_reward, True, None
             return self.state, new_num_opened-num_opened, False, None
-
-    def drawGrid(self):
-        import pygame
-        for x in range(0, self.window_width, self.block_size):
-            for y in range(0, self.window_height, self.block_size):
-                rect = pygame.Rect(x, y, self.block_size, self.block_size)
-                if self.state[int(x/self.block_size),int(y/self.block_size)]==-1:
-                    pygame.draw.rect(self.screen, (255,255,255), rect, 1)
-                else:
-                    num = int(self.state[int(x/self.block_size),int(y/self.block_size)])
-                    if num==0:
-                        pygame.draw.rect(self.screen, (250,255,255), rect)
-                    elif num==1:
-                        pygame.draw.rect(self.screen, (220,220,220), rect)
-                    elif num==2:
-                        pygame.draw.rect(self.screen, (190,190,190), rect)
-                    elif num==3:
-                        pygame.draw.rect(self.screen, (160,160,160), rect)
-                    elif num==4:
-                        pygame.draw.rect(self.screen, (130,130,130), rect)
-                    elif num==5:
-                        pygame.draw.rect(self.screen, (100,100,100), rect)
-                    else:
-                        pygame.draw.rect(self.screen, (70,70,70), rect)
-        pygame.display.update()
-
-    def render(self):
-        self.screen.fill((0,0,0))
-        self.drawGrid()
