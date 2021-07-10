@@ -2,8 +2,8 @@ import torch as T
 import numpy as np
 from minesweeper_train_env import Minesweeper
 
-env = Minesweeper(5,5,3,False)
-model = T.load("minesweeper_model")
+env = Minesweeper(5,5,3)
+model = T.load("minesweeper_model_alt1")
 
 def cmp(setup):
     env.reset()
@@ -22,7 +22,7 @@ def cmp(setup):
     nn_output = model(T.tensor([[nn_input]]).float())[0][0]
     
     with T.no_grad():
-        print("given input:\n", nn_input)
+        print("given state input:\n", nn_input)
         print("prob of non-mine\n", 1-nn_output.numpy())
 
-cmp(True)
+cmp(0)

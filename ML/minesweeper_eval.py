@@ -6,11 +6,13 @@ import time
 
 # minesweeper model takes in a 5x5 0-centered state map
 # outputs the probability of a mine present in each block
-model = T.load("minesweeper_model")
+model = T.load("minesweeper_model_alt1")
 
-prob_threshold = 0.92
-height,width = 9,9
-num_mines = 10
+sleep_interval = 0.2
+
+prob_threshold = 0.95
+height,width = 16,16
+num_mines = 40
 env = Minesweeper(height,width,num_mines)
 done = False
 env.reset()
@@ -25,7 +27,6 @@ env.render()
 def get_5x5_block(state,x,y):
     return state[x-2:x+3,y-2:y+3]
 
-steps = 0
 max_steps = height*width-num_mines
 visited = []
 
@@ -37,10 +38,12 @@ def get_all_01s(state):
                 zeros.append((i,j))
     return zeros
 
-while not done and steps<=max_steps:
+while not done:
     zeros_and_ones = get_all_01s(state)
     if len(zeros_and_ones)==len(visited):
-        break
+        print("no more blocks to open")
+        input()
+        quit()
     for i,j in zeros_and_ones:
         if (i,j) not in visited:
             visited.append((i,j))
@@ -50,25 +53,24 @@ while not done and steps<=max_steps:
                 for a in range(5):
                     if nn_output[a,0]>prob_threshold and state[i+a-2,j-2]==-1:
                         state,_,done,_ = env.step(height*(i+a-2)+j-2)
-                        steps += 1
-                        print(state)
+                        time.sleep(sleep_interval)
+                        env.render()
                         if done: break
                     if nn_output[a,4]>prob_threshold and state[i+a-2,j+2]==-1:
                         state,_,done,_ = env.step(height*(i+a-2)+j+2)
-                        steps += 1
-                        print(state)
+                        time.sleep(sleep_interval)
+                        env.render()
                         if done: break
                 for a in range(5):
                     if nn_output[0,a]>prob_threshold and state[i-2,j+a-2]==-1:
                         state,_,done,_ = env.step(height*(i-2)+a+j-2)
-                        steps += 1
-                        print(state)
+                        time.sleep(sleep_interval)
+                        env.render()
                         if done: break
                     if nn_output[4,a]>prob_threshold and state[i+2,j+a-2]==-1:
                         state,_,done,_ = env.step(height*(i+2)+a+j-2)
-                        steps += 1
-                        print(state)
+                        time.sleep(sleep_interval)
+                        env.render()
                         if done: break
-env.render()
-print("loop end")
-time.sleep(1000)
+print("stepped on bomb")
+input()

@@ -5,9 +5,9 @@ from minesweeper_train_env import Minesweeper
 
 env = Minesweeper(5,5,3) # P(mine|ij)=0.16
 
-model = nn.Sequential(nn.Conv2d(1,20,3,padding=2), nn.ReLU(),
-                      nn.Conv2d(20,40,3,padding=2), nn.ReLU(),
-                      nn.Conv2d(40,20,3), nn.ReLU(),
+model = nn.Sequential(nn.Conv2d(1,20,3,padding=2), nn.LeakyReLU(),
+                      nn.Conv2d(20,40,3,padding=2), nn.LeakyReLU(),
+                      nn.Conv2d(40,20,3), nn.LeakyReLU(),
                       nn.Conv2d(20,1,3), nn.Sigmoid())
 criterion = nn.MSELoss()
 optimizer = T.optim.SGD(model.parameters(), lr=0.1)
@@ -28,5 +28,5 @@ for _ in tqdm(range(num_epoch)):
     loss.backward()
     optimizer.step()
 
-T.save(model,"minesweeper_model")
+T.save(model,"minesweeper_model_alt1")
 print("model saved")
