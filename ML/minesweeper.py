@@ -8,12 +8,12 @@ class Minesweeper():
     # STATE
     #   given the map of height x width, numbers in each block of map:
     #   1. -1 denotes unopened block
-    #   1. 0-8 denotes the number of mines in the surrounding 8 blocks of the block
+    #   2. 0-8 denotes the number of mines in the surrounding 8 blocks of the block
     # MAP
     #   the map is unobervable to the agent where 0 is non-mine, 1 has a mine
     # ACTIONS
-    #   action is Discrete(height*width) representing an attempt to open a the block's
-    #   index at which the map is flattened.
+    #   action is Discrete(height*width) representing an attempt to open at the block's
+    #   index when the map is flattened.
     # RESET
     #   be sure to call the reset function before using any other function in the class
     # STEP(ACTION)
@@ -33,12 +33,9 @@ class Minesweeper():
         self.step_cntr = 0
         self.step_cntr_max = (height*width-num_mines)*2
 
-        self.block_size = 40
+        self.block_size = 25
         self.window_height = self.block_size * height
         self.window_width = self.block_size * width
-        self.screen = pygame.display.set_mode((self.window_width, self.window_height))
-        pygame.init()
-        self.font = pygame.font.SysFont(pygame.font.get_default_font(), 25)
         self.map = None
         self.generate_mines()
         
@@ -54,6 +51,9 @@ class Minesweeper():
             self.map[x,y] = True
 
     def reset(self):
+        self.screen = pygame.display.set_mode((self.window_width, self.window_height))
+        pygame.init()
+        self.font = pygame.font.SysFont(pygame.font.get_default_font(), 20)
         self.generate_mines()
         self.step_cntr = 0
         self.state = np.zeros((self.height, self.width))-1
@@ -110,11 +110,11 @@ class Minesweeper():
         for x in range(0, self.window_width, self.block_size):
             for y in range(0, self.window_height, self.block_size):
                 rect = pygame.Rect(x, y, self.block_size, self.block_size)
-                if self.state[int(x/self.block_size),int(y/self.block_size)]==-1:
+                num = int(self.state[int(x/self.block_size),int(y/self.block_size)])
+                if num==-1:
                     pygame.draw.rect(self.screen, (255,255,255), rect, 1)
                 else:
-                    num = int(self.state[int(x/self.block_size),int(y/self.block_size)])
-                    color = (250-num*0, 250-num*30, 250-num*30)
+                    color = (250, 250-num*30, 250-num*30)
                     pygame.draw.rect(self.screen, color, rect)
                     textsurface = self.font.render(str(num), False, (0, 0, 0))
                     self.screen.blit(textsurface,(x+self.block_size/3,y+self.block_size/3))
