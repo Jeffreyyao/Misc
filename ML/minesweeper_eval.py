@@ -1,15 +1,17 @@
 import torch as T
+from torch import nn
 import numpy as np
 from minesweeper import Minesweeper
+from minesweeper_train import msnn
 import time
 
 # minesweeper model takes in a 5x5 0-centered state map
 # outputs the probability of a mine present in each block
-model = T.load("minesweeper_model",map_location=T.device('cpu'))
+model = T.load("minesweeper_model_alt3",map_location=T.device('cpu'))
 
 sleep_interval = 0.2
 
-prob_threshold = 0.95
+prob_threshold = 0.99
 height,width = 17,17
 num_mines = 40
 env = Minesweeper(height,width,num_mines)
@@ -41,7 +43,7 @@ while not done:
     for i,j in zeros_and_ones:
         nn_input = get_5x5_block(state,i,j)
         with T.no_grad():
-            nn_output = 1-model(T.tensor([[nn_input]]).float()).numpy()[0][0]
+            nn_output = 1-model(T.tensor([[nn_input]]).float()).numpy()#[0][0]
             for a in range(5):
                 if nn_output[a,0]>prob_threshold and state[i+a-2,j-2]==-1:
                     state,_,done,_ = env.step(height*(i+a-2)+j-2)

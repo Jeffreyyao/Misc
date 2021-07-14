@@ -1,6 +1,7 @@
 import numpy as np
 from random import randrange
 import pygame
+import pygame.freetype
 
 class Minesweeper():
 
@@ -53,7 +54,7 @@ class Minesweeper():
     def reset(self):
         self.screen = pygame.display.set_mode((self.window_width, self.window_height))
         pygame.init()
-        self.font = pygame.font.SysFont(pygame.font.get_default_font(), 20)
+        self.font = pygame.freetype.SysFont(pygame.font.get_default_font(), 13)
         self.generate_mines()
         self.step_cntr = 0
         self.state = np.zeros((self.height, self.width))-1
@@ -116,8 +117,9 @@ class Minesweeper():
                 else:
                     color = (250, 250-num*30, 250-num*30)
                     pygame.draw.rect(self.screen, color, rect)
-                    textsurface = self.font.render(str(num), False, (0, 0, 0))
-                    self.screen.blit(textsurface,(x+self.block_size/3,y+self.block_size/3))
+                    text = self.font.get_rect(str(num))
+                    text.center = rect.center
+                    self.font.render_to(self.screen,text.topleft,str(num),(0,0,0))
         pygame.display.update()
 
     def render(self):
