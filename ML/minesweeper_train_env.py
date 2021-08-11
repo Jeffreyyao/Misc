@@ -40,6 +40,11 @@ class Minesweeper():
             else:
                 self.map[self.height-1,i] = 0
 
+        coords = np.array([[1,1],[1,2],[1,3],[2,1],[2,3],[3,1],[3,2],[3,3]])
+        c = np.random.choice(8, 1, replace=False)# for block-n training
+        for i in coords[c]:
+            self.map[i[0],i[1]]= 1
+
     def reset(self):
         self.generate_mines()
         self.step_cntr = 0

@@ -3,7 +3,7 @@ import numpy as np
 from minesweeper_train_env import Minesweeper
 
 env = Minesweeper(5,5,3)
-model = T.load("minesweeper_model_alt1")
+model = T.load("minesweeper_model_1")
 
 def cmp(setup):
     env.reset()
@@ -25,4 +25,4 @@ def cmp(setup):
         print("given state input:\n", nn_input)
         print("prob of non-mine\n", 1-nn_output.numpy())
 
-cmp(0)
+cmp(1)
