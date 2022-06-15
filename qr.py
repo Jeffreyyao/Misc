@@ -8,8 +8,8 @@ for i in range(len(m)):
  l = ''
  for j in range(len(m)):
   if m[i][j]:
-   l+='  '
+   l+='\u2588\u2588'
   else:
-   l+="\u2588\u2588"
+   l+="  "
  print(l)
 

@@ -1,6 +1,6 @@
 import torch as T
 from torch import nn
-#from tqdm import tqdm
+from tqdm import tqdm
 from minesweeper_train_env import Minesweeper
 
 if __name__=="__main__":
@@ -9,9 +9,9 @@ if __name__=="__main__":
 
     device = T.device('cuda:0' if T.cuda.is_available() else 'cpu')
     print(device)
-    model = nn.Sequential(nn.Conv2d(1,20,3,padding=2), nn.ReLU(),
-                        nn.Conv2d(20,40,3,padding=2), nn.ReLU(),
-                        nn.Conv2d(40,20,3), nn.ReLU(),
+    model = nn.Sequential(nn.Conv2d(1,20,3,padding=2), nn.GELU(),
+                        nn.Conv2d(20,40,3,padding=2), nn.GELU(),
+                        nn.Conv2d(40,20,3), nn.GELU(),
                         nn.Conv2d(20,1,3), nn.Sigmoid()).to(device)
                         
     criterion = nn.MSELoss()
@@ -31,7 +31,7 @@ if __name__=="__main__":
         return T.tensor([[nn_input]]).float().to(device), T.tensor([[nn_output]]).float().to(device)
 
     num_epoch = 200000
-    for _ in range(num_epoch):
+    for _ in tqdm(range(num_epoch)):
         nn_input, nn_desired_output = get_train_data()
         optimizer.zero_grad()
         nn_output = model(nn_input)
@@ -39,5 +39,5 @@ if __name__=="__main__":
         loss.backward()
         optimizer.step()
 
-    T.save(model,"minesweeper_model_1")
+    T.save(model,"minesweeper_model_0_GELU")
     print("model saved")

@@ -1,6 +1,5 @@
 import random
 import gym
-import numpy
 import torch
 from torch import nn
 from tqdm import tqdm
