@@ -3,7 +3,7 @@ from random import randrange
 import pygame
 import pygame.freetype
 
-class Minesweeper():
+class MinesweeperGym():
 
     # a minesweeper environment implemented in openai gym style
     # STATE

@@ -1,5 +1,5 @@
 import torch as T
-from minesweeper import Minesweeper
+from MinesweeperGym import MinesweeperGym
 import time
 
 # minesweeper model takes in a 5x5 0-centered state map
@@ -13,7 +13,7 @@ sleep_interval = 0.2
 prob_threshold = 0.92
 height,width = 16,16
 num_mines = 40
-env = Minesweeper(height,width,num_mines)
+env = MinesweeperGym(height,width,num_mines)
 done = False
 env.reset()
 
