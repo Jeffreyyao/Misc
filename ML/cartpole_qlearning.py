@@ -10,7 +10,7 @@ epsilon = 1
 Observation = [30, 30, 50, 50]
 np_array_win_size = np.array([0.25, 0.25, 0.01, 0.1])
 
-buckets=(6, 12, 6, 12,)
+buckets=(6, 20, 6, 20,)
 q = np.zeros(buckets + (env.action_space.n,))
 print(q.shape)
 
