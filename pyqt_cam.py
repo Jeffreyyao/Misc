@@ -16,8 +16,7 @@ class Thread(QThread):
                 rgbImage = cv2.flip(rgbImage,1)
                 h, w, ch = rgbImage.shape
                 bytesPerLine = ch * w
-                convertToQtFormat = QImage(rgbImage.data, w, h, 
-bytesPerLine, QImage.Format_RGB888)
+                convertToQtFormat = QImage(rgbImage.data, w, h, bytesPerLine, QImage.Format_RGB888)
                 p = convertToQtFormat.scaled(640, 480, Qt.KeepAspectRatio)
                 self.changePixmap.emit(p)
 
